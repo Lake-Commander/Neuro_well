@@ -33,23 +33,23 @@ if page == "📊 Dashboard":
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Burn Rate Distribution")
-        st.image("eda_outputs/burn_rate_distribution.png", use_column_width=True)
+        st.image("eda_outputs/burn_rate_distribution.png", use_container_width=True)
 
         st.subheader("Burn Rate by Company Type")
-        st.image("eda_outputs/burnrate_by_company_type.png", use_column_width=True)
+        st.image("eda_outputs/burnrate_by_company_type.png", use_container_width=True)
 
     with col2:
         st.subheader("Burn Rate vs Mental Fatigue")
-        st.image("eda_outputs/burnrate_vs_fatigue.png", use_column_width=True)
+        st.image("eda_outputs/burnrate_vs_fatigue.png", use_container_width=True)
 
         st.subheader("Burn Rate by Designation")
-        st.image("eda_outputs/burnrate_by_designation.png", use_column_width=True)
+        st.image("eda_outputs/burnrate_by_designation.png", use_container_width=True)
 
     st.subheader("Correlation Heatmap")
-    st.image("eda_outputs/correlation_heatmap.png", use_column_width=True)
+    st.image("eda_outputs/correlation_heatmap.png", use_container_width=True)
 
     st.subheader("🔥 Feature Importance (Random Forest)")
-    st.image("output_graphs/insights/feature_importance_plot.png", use_column_width=True)
+    st.image("output_graphs/insights/feature_importance_plot.png", use_container_width=True)
 
 # === Prediction Page ===
 elif page == "🤖 Predict Burnout":
