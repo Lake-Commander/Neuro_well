@@ -1,5 +1,5 @@
 ## ⚠️ Disclaimer
-> This application is strictly for educational and research purposes. It should not be used in any real-world or production setting to determine the authenticity of news without further validation and domain expertise.
+> This application is strictly for educational and research purposes. It is not intended for clinical use.
 
 # 🧠 Employee Burnout Prediction
 
