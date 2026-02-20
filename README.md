@@ -1,23 +1,23 @@
-## ⚠️ Disclaimer
+##  Disclaimer
 > This application is strictly for educational and research purposes. It is not intended for clinical use.
 
-# 🧠 Employee Burnout Prediction
+#  Employee Burnout Prediction
 
 This project predicts employee burnout levels based on factors such as job designation, company type, resource allocation, mental fatigue and work-from-home setup. It uses machine learning models trained on a real-world dataset and presents predictions through a user-friendly Streamlit app.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔍 Exploratory Data Analysis (EDA) on burnout drivers
-- 📊 Correlation & Bivariate Visualizations
-- 🧠 Machine learning models: Random Forest, Linear, Ridge and Lasso Regression
-- 📈 Performance metrics: MSE, R² Score
-- 🌐 Streamlit App for real-time burnout prediction
+-  Exploratory Data Analysis (EDA) on burnout drivers
+-  Correlation & Bivariate Visualizations
+-  Machine learning models: Random Forest, Linear, Ridge and Lasso Regression
+-  Performance metrics: MSE, R² Score
+-  Streamlit App for real-time burnout prediction
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 - Python 3.13
 - Pandas, NumPy, Matplotlib, Seaborn
@@ -27,7 +27,7 @@ This project predicts employee burnout levels based on factors such as job desig
 
 ---
 
-## 💻 Run Locally
+##  Run Locally
 
 ### 1. Clone the repository:
 
@@ -48,7 +48,7 @@ venv\\Scripts\\activate
 pip instal -r requirements.txt
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 burnout-prediction/
@@ -67,7 +67,7 @@ burnout-prediction/
 ```
 
 
-## 🧪 Train Your Own Model
+##  Train Your Own Model
 **To train a new model with your dataset:**
 
 1. Prepare your dataset in CSV format. Use the sample datasets here for schema reference.
@@ -78,11 +78,11 @@ burnout-prediction/
 
 4. Ensure your app loads the new model path.
 
-## 🌐 Deployed App
+## Deployed App
 Access the live app:
-👉 [Click here to open the app](https://neurowell-bo.streamlit.app/).
+ [Click here to open the app](https://neurowell-bo.streamlit.app/).
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 This project was built under the guidance and mentorship of the 3MTT (Three Million Technical Talent) program by the National Information Technology Development Agency (NITDA), Nigeria.
 
 We sincerely appreciate NITDA and the Federal Ministry of Communications, Innovation and Digital Economy for the opportunity to learn, grow, and contribute to Nigeria’s digital transformation journey.
